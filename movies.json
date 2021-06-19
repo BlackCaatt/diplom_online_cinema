@@ -1,0 +1,62 @@
+{
+  "movies": [{
+    "title" : "Зеленая миля",
+    "episode_number" : "1",
+    "main_characters" : ["Том Хэнкс, Дэвид Морс, Бонни Хант, Майкл Кларк Дункан, Джеймс Кромуэлл, Майкл Джитер, Грэм Грин, Даг Хатчисон, Сэм Рокуэлл, Барри Пеппер"],
+    "description" : "В тюрьме для смертников появляется заключенный с божественным даром. Мистическая драма по роману Стивена Кинга",
+    "poster" : "zelenaya_milya_episode_1_poster.jpg",
+    "hero_image" : "zelenaya_milya_1_hero.jpg",
+    "trailer" : "https://www.youtube.com/embed/TODt_q-_4C4"
+  },
+
+  {
+    "title" : "Властелин колец: Возвращение Короля",
+    "episode_number" : "2",
+    "main_characters" : ["Элайджа Вуд, Вигго Мортенсен, Шон Эстин, Иэн Маккеллен, Орландо Блум, Доминик Монахэн, Билли Бойд, Энди Серкис, Миранда Отто, Бернард Хилл"],
+    "description" : "Арагорн штурмует Мордор, а Фродо устал бороться с чарами кольца. Эффектный финал саги, собравший 11 «Оскаров»",
+    "poster" : "LOR_episode_2_poster.jpg",
+    "hero_image" : "LOR_2_hero.jpg",
+    "trailer" : "https://www.youtube.com/embed/lxAeV1-KpSA"
+  },
+
+  {
+    "title" : "Интерстеллар",
+    "episode_number" : "3",
+    "main_characters" : ["Мэттью МакКонахи, Энн Хэтэуэй, Джессика Честейн, Маккензи Фой, Майкл Кейн, Дэвид Гяси, Уэс Бентли, Кейси Аффлек, Джон Литгоу, Мэтт Дэймон"],
+    "description" : "Фантастический эпос про задыхающуюся Землю, космические полеты и парадоксы времени. «Оскар» за спецэффекты.",
+    "poster" : "interstellar_episode_3_poster.jpg",
+    "hero_image" : "interstellar3_hero.jpg",
+    "trailer": "https://www.youtube.com/embed/qcPfI0y7wRU"
+  },
+
+  {
+    "title" : "Форрест Гамп",
+    "episode_number" : "4",
+    "main_characters" : ["Том Хэнкс, Робин Райт, Салли Филд, Гэри Синиз, Майкелти Уильямсон, Майкл Коннер Хэмпфри, Ханна Р. Холл, Сэм Андерсон, Шиван Фэллон, Ребекка Уильямс"],
+    "description" : "Том Хэнкс исполняет американскую мечту.",
+    "poster" : "forrest_gump_episode_4_poster.jpg",
+    "hero_image" : "forrest_gump_4_hero.jpg",
+    "trailer" : "https://www.youtube.com/embed/otmeAaifX04"
+  },
+
+  {
+    "title" : "Список Шиндлера",
+    "episode_number" : "5",
+    "main_characters" : ["Лиам Нисон, Бен Кингсли, Рэйф Файнс, Кэролайн Гудолл, Эмбет Дэвидц, Йонатан Сэгаль, Малгоша Гебель, Шмуэль Леви, Марк Иванир, Беатриче Макола"],
+    "description" : "Драма о холокосте и великом человеческом поступке",
+    "poster" : "spisok_shindlera_episode_5_poster.jpg",
+    "hero_image" : "spisok_shindlera_5_hero.jpg",
+    "trailer" : "https://www.youtube.com/embed/4r2Z0U9Y53o"
+  },
+
+  {
+    "title" : "Клаус",
+    "episode_number" : "6",
+    "main_characters" : ["Мультфильм"],
+    "description" : "Энергичный почтальон безуспешно ищет работу в отдаленном городке на севере, где никто не нуждается в его услугах. Необходимо чудо, чтобы неприветливые местные жители начали писать письма. Но за чудесами далеко идти не нужно – оказывается, в этом городке живет сам Санта-Клаус.",
+    "poster" : "klaus_episode_6_poster.jpg",
+    "hero_image" : "klaus_6_hero.png",
+    "trailer" : "https://www.youtube.com/embed/6ntdmScyBDM"
+  }]
+
+}

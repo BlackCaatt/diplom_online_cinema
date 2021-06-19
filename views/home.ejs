@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- <%- include("./partials/head.ejs") %> -->
+    <% include ./partials/head %>
+
+
+
+</head>
+<body>
+
+
+
+
+ <!-- <%- include("./partials/header.ejs") %> -->
+	 <% include ./partials/header %>
+	<!--  <nav class="navbar navbar-fixed-top"> -->
+		<div class="welcome">
+<nav class="navbar navbar-fixed-top">
+
+<ul class="logout"><a href="/users/logout" class="btn btn-secondary">Выйти</a></ul>
+<p class="lead mb-3">Здравствуйте, <%= user.name %></p>
+
+</div>
+
+</ul>
+
+	<div id="hero-image">
+		<h1 id="hero-title"><%= title %></h1>
+	</div>
+
+
+
+	  <!--   <div class="row mt-5">
+  <div class="col-md-6 m-auto">
+    <div class="card card-body text-center">
+      <h1><i class="fab fa-node-js fa-3x"></i></h1>
+      <p>Create an account or login</p>
+      <a href="/users/register" class="btn btn-primary btn-block mb-2"
+        >Register</a
+      >
+      <a href="/users/login" class="btn btn-secondary btn-block">Login</a>
+    </div>
+  </div>
+</div>
+ -->
+
+	<div id="posters-wrapper" class="content-padding clearfix">
+
+	  <% for (var i = 0; i < movies.length; i++) { %>
+	  	<div class="poster">
+
+	  		<a href="home/movie_number/<%= movies[i].episode_number %>">
+
+			  	<img src="/images/<%= movies[i].poster %>" class="img-responsive">
+
+			  	<div class="poster-info-overlay">
+			  		<h3><%= movies[i].title %></h3>
+			  		<h4>Посмотреть <i class="fa fa-arrow-right"></i></h4>
+			  	</div>
+
+		  	</a>
+
+			</div>
+	  <% } %>
+
+	</div>
+
+
+<!--   <%- include("./partials/scripts.ejs") %> -->
+     <% include ./partials/scripts %>
+
+</body>
+</html>
